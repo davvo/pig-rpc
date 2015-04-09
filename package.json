@@ -1,6 +1,6 @@
 {
   "name": "pig-rpc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/davvo/pig-rpc",
