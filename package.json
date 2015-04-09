@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "pig-rpc": "./lib/broker.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
