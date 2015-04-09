@@ -17,7 +17,7 @@ You need to [install zeromq](http://zeromq.org/intro:get-the-software). On OSX y
 
 ### Broker
 ```sh
-var pig = require('pig-rpc);
+var pig = require('pig-rpc');
 
 pig({
   url: 'tcp://*:55555'
