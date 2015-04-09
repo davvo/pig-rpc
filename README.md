@@ -8,6 +8,11 @@ You need to [install zeromq](http://zeromq.org/intro:get-the-software). On OSX y
 > brew install zeromq 
 ```
 
+##Install
+```sh
+> npm install pig-rpc
+```
+
 ## Example
 
 ### Broker
