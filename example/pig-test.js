@@ -1,13 +1,9 @@
 var pig = require('..');
 
-var options = {
-    url: 'tcp://127.0.0.1:55555'
-};
-
-var rpc = pig(options);
+var rpc = pig('tcp://127.0.0.1:55555');
 
 rpc.broker(function () {
-    console.log('broker started at', options.url);
+    console.log('broker started');
 
     rpc.handle('square', function (num, callback) {
         callback(Math.pow(num, 2));
