@@ -1,5 +1,12 @@
 # pig-rpc
-simple rpc using zeromq and pigato
+simple rpc using [zeromq](http://zeromq.org/) and [pigato](https://github.com/prdn/pigato)
+
+## Prerequisites
+You need to [install zeromq](http://zeromq.org/intro:get-the-software). On OSX you can use homebrew:
+```sh
+> brew update
+> brew install zeromq 
+```
 
 ## Example
 
